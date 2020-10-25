@@ -1,0 +1,5 @@
+## Build an image 
+docker build . -t tomcat-webserver-docker  
+
+## Launch app
+docker run -itd -p 8080:8080 tomcat-webserver-docker
